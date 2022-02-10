@@ -1,0 +1,20 @@
+$color_subtitulo: #3cb371;
+
+header{
+
+    h3{
+        color: $color_subtitulo;
+    }
+}
+
+main{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    align-content: center;
+}
+
+
+
