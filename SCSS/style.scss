@@ -9,10 +9,12 @@ $color_subtitulo: #3cb371;
     src: url('Fonts/open_dyslexic/OpenDyslexic-Bold.otf');
 }
 
-header{
-    &.dis{
+.dis{
         font-family: "open-dyslexic-bold";
-    }
+}
+
+header{
+    
     h3{
         color: $color_subtitulo;
     }

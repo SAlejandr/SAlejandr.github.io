@@ -1,0 +1,12 @@
+h3{
+
+    color: #3cb371;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    align-content: center;
+}
