@@ -1,7 +1,18 @@
 $color_subtitulo: #3cb371;
 
-header{
+@font-face {
+    font-family: "open-dyslexic";
+    src: url('Fonts/open_dyslexic/OpenDyslexic-Regular.otf');
+}
+@font-face {
+    font-family: "open-dyslexic-bold";
+    src: url('Fonts/open_dyslexic/OpenDyslexic-Bold.otf');
+}
 
+header{
+    &.dis{
+        font-family: "open-dyslexic-bold";
+    }
     h3{
         color: $color_subtitulo;
     }
