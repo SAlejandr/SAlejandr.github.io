@@ -2,32 +2,37 @@ $color_subtitulo: #3cb371;
 
 @font-face {
     font-family: "open-dyslexic";
-    src: url('Fonts/open_dyslexic/OpenDyslexic-Regular.otf');
+    src: url("Fonts/open_dyslexic/OpenDyslexic-Regular.otf");
 }
 @font-face {
     font-family: "open-dyslexic-bold";
-    src: url('Fonts/open_dyslexic/OpenDyslexic-Bold.otf');
+    src: url("Fonts/open_dyslexic/OpenDyslexic-Bold.otf");
 }
 
-.dis{
-        font-family: "open-dyslexic-bold";
+.dis {
+    font-family: "open-dyslexic-bold";
 }
 
-header{
-    
-    h3{
+header {
+    h3 {
         color: $color_subtitulo;
     }
 }
 
-main{
-
+main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
     align-content: center;
+    color:black;
+
+    article.pretty-list {
+        ul {
+            li {
+                display: inline-block;
+                width: 33%;
+            }
+        }
+    }
 }
-
-
-

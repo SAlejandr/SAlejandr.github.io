@@ -20,6 +20,11 @@ main {
   justify-content: space-between;
   width: 70%;
   align-content: center;
+  color: black;
+}
+main article.pretty-list ul li {
+  display: inline-block;
+  width: 33%;
 }
 
 /*# sourceMappingURL=style.css.map */
