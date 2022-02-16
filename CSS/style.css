@@ -14,11 +14,21 @@
   font-family: "open-dyslexic-bold";
 }
 
+#change_button {
+  float: right;
+  width: 5%;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
 header h3 {
   color: #3cb371;
 }
 
 main {
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -26,8 +36,10 @@ main {
   align-content: center;
   color: black;
 }
+main article.pretty-list ul {
+  display: flex;
+}
 main article.pretty-list ul li {
-  display: inline-block;
   width: 30%;
 }
 
