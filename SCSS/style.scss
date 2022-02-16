@@ -9,7 +9,11 @@ $color_subtitulo: #3cb371;
     src: url("Fonts/open_dyslexic/OpenDyslexic-Bold.otf");
 }
 
-.dis {
+.normal-mode{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dyslexic-mode{
     font-family: "open-dyslexic-bold";
 }
 
@@ -31,7 +35,7 @@ main {
         ul {
             li {
                 display: inline-block;
-                width: 33%;
+                width: 30%;
             }
         }
     }
