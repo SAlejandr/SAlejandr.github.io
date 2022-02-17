@@ -9,30 +9,39 @@ $color_subtitulo: #3cb371;
     src: url("Fonts/open_dyslexic/OpenDyslexic-Bold.otf");
 }
 
-.normal-mode{
-    font-family: 'Times New Roman', Times, serif;
+.normal-mode {
+    font-family: "Times New Roman", Times, serif;
 }
 
-.dyslexic-mode{
+.dyslexic-mode {
     font-family: "open-dyslexic-bold";
 }
 
-#change_button{
+#change_button {
     float: right;
     width: 5%;
 }
 
 header {
     width: 80%;
-    margin:auto;
+    margin: auto;
     h3 {
         color: $color_subtitulo;
     }
 }
 
 main {
+    margin: auto;
+    justify-content: space-between;
     width: 70%;
     align-content: center;
-    color:black;
+    color: black;
 
+    .pretty-list {
+        ul {
+            li {
+                width: 30%;
+            }
+        }
+    }
 }
