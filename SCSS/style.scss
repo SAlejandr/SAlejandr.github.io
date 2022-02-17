@@ -32,20 +32,9 @@ header {
 
 main {
     margin:auto;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     width: 70%;
     align-content: center;
     color:black;
 
-    article.pretty-list {
-        ul {
-            display: flex;
-            li {
-                
-                width: 30%;
-            }
-        }
-    }
 }

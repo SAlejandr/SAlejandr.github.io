@@ -29,18 +29,10 @@ header h3 {
 
 main {
   margin: auto;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   width: 70%;
   align-content: center;
   color: black;
-}
-main article.pretty-list ul {
-  display: flex;
-}
-main article.pretty-list ul li {
-  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
