@@ -43,10 +43,13 @@ function chages_modes() {
 document.addEventListener("DOMContentLoaded", function () {
     button = document.getElementById("change_button");
 
-    button = document.getElementById("modes");
+    modes = document.getElementById("modes");
+
+    modes.innerText ="Dark/Light";
 
     button.innerText = "Dyslexic";
     button.setAttribute("class", "dyslexic-mode");
 
     button.addEventListener("click", cambiarModo);
+    modes.addEventListener("click", chages_modes);
 });

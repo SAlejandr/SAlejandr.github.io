@@ -22,16 +22,23 @@ $small: 800px;
 }
 
 #principal{
+    height: 100%;
     &.dark-mode{
         color:$color_texto_osc;
         background-color: #000;
     }
     &.dark-mode{
-        color:$color_texto_osc;
-        background-color: #000;
+        color:$color_texto;
+        background-color: #fff;
     }
 }
+#modes{
+    float: left;
+    font-size: 100%;
+    width: 100px;
+    border-radius: 10px;
 
+}
 #change_button {
     float: right;
     font-size: 100%;
