@@ -16,7 +16,8 @@
 
 #change_button {
   float: right;
-  width: 5%;
+  font-size: 100%;
+  width: 100px;
 }
 
 header {
@@ -34,8 +35,15 @@ main {
   align-content: center;
   color: black;
 }
-main .pretty-list ul li {
-  width: 30%;
+@media screen and (max-width: 800px) {
+  main .pretty-list ul li {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 800px) {
+  main .pretty-list ul li {
+    width: 30%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

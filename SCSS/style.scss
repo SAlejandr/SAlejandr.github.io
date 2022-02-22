@@ -1,4 +1,5 @@
 $color_subtitulo: #3cb371;
+$small: 800px;
 
 @font-face {
     font-family: "open-dyslexic";
@@ -19,7 +20,8 @@ $color_subtitulo: #3cb371;
 
 #change_button {
     float: right;
-    width: 5%;
+    font-size: 100%;
+    width: 100px;
 }
 
 header {
@@ -40,7 +42,13 @@ main {
     .pretty-list {
         ul {
             li {
-                width: 30%;
+                @media screen and (max-width: $small) {
+                    width: 100%;
+                }
+                @media screen and (min-width: $small) {
+                    width: 30%;
+                }
+                
             }
         }
     }
