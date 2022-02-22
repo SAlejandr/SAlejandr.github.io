@@ -18,6 +18,7 @@
   float: right;
   font-size: 100%;
   width: 100px;
+  border-radius: 10px;
 }
 
 header {
@@ -34,6 +35,9 @@ main {
   width: 70%;
   align-content: center;
   color: black;
+}
+main h4 {
+  color: #f2511b;
 }
 @media screen and (max-width: 800px) {
   main .pretty-list ul li {
