@@ -22,12 +22,11 @@ $small: 800px;
 }
 
 #principal{
-    height: 100%;
     &.dark-mode{
         color:$color_texto_osc;
         background-color: #000;
     }
-    &.dark-mode{
+    &.light-mode{
         color:$color_texto;
         background-color: #fff;
     }

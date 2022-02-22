@@ -33,11 +33,11 @@ function chages_modes() {
     if(num%2 == 0){
         
 
-        body.setAttribute("class","container-fluid dark-mode");
+        body.setAttribute("class","container-fluid h-100 dark-mode");
     }else{
-        body.setAttribute("class","container-fluid light-mode");
+        body.setAttribute("class","container-fluid h-100 light-mode");
     }
-
+    num++;
 }
 
 document.addEventListener("DOMContentLoaded", function () {

@@ -14,14 +14,11 @@
   font-family: "open-dyslexic-bold";
 }
 
-#principal {
-  height: 100%;
-}
 #principal.dark-mode {
   color: #f5f5dc;
   background-color: #000;
 }
-#principal.dark-mode {
+#principal.light-mode {
   color: #000;
   background-color: #fff;
 }
