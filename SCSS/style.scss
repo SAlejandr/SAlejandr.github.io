@@ -1,5 +1,7 @@
 $color_subtitulo: #3cb371;
 $color_articulo: #f2511b;
+$color_texto_osc: #f5f5dc;
+$color_texto:#000;
 $small: 800px;
 
 @font-face {
@@ -17,6 +19,17 @@ $small: 800px;
 
 .dyslexic-mode {
     font-family: "open-dyslexic-bold";
+}
+
+#principal{
+    &.dark-mode{
+        color:$color_texto_osc;
+        background-color: #000;
+    }
+    &.dark-mode{
+        color:$color_texto_osc;
+        background-color: #000;
+    }
 }
 
 #change_button {
@@ -39,7 +52,6 @@ main {
     justify-content: space-between;
     width: 70%;
     align-content: center;
-    color: black;
 
     h4{
         color: $color_articulo;

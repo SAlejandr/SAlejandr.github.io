@@ -14,6 +14,15 @@
   font-family: "open-dyslexic-bold";
 }
 
+#principal.dark-mode {
+  color: #f5f5dc;
+  background-color: #000;
+}
+#principal.dark-mode {
+  color: #f5f5dc;
+  background-color: #000;
+}
+
 #change_button {
   float: right;
   font-size: 100%;
@@ -34,7 +43,6 @@ main {
   justify-content: space-between;
   width: 70%;
   align-content: center;
-  color: black;
 }
 main h4 {
   color: #f2511b;
